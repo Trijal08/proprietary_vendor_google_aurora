@@ -14,7 +14,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/graphicbuffersource-aidl-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -30,7 +30,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/libmedia_codeclist.so"],
 			shared_libs: [ ],
 		},
@@ -46,7 +46,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/libmedia_codeclist_capabilities.so"],
 			shared_libs: [ ],
 		},
@@ -62,7 +62,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/libstagefright_aidl_bufferpool2.so"],
 			shared_libs: [ ],
 		},
@@ -78,7 +78,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/libstagefright_bufferpool@2.0.1.so"],
 			shared_libs: [ ],
 		},
@@ -94,7 +94,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/libstagefright_codecbase.so"],
 			shared_libs: [ ],
 		},
@@ -110,7 +110,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/libstagefright_framecapture_utils.so"],
 			shared_libs: [ ],
 		},
@@ -126,7 +126,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/libstagefright_graphicbuffersource_aidl.so"],
 			shared_libs: [ ],
 		},
@@ -142,7 +142,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/libstagefright_surface_utils.so"],
 			shared_libs: [ ],
 		},
@@ -158,7 +158,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.data.connectionaidl-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -174,7 +174,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -190,7 +190,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V10-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -206,7 +206,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V2-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -222,7 +222,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V3-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -238,7 +238,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V4-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -254,7 +254,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V5-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -270,7 +270,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V6-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -286,7 +286,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V7-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -302,7 +302,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V8-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -318,7 +318,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary//lib/vendor.qti.hardware.display.config-V9-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -334,7 +334,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/PixelVibratorFlagsL26.so"],
 			shared_libs: [ ],
 		},
@@ -351,7 +351,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/btaudio_offload_if.so"],
 			shared_libs: [ ],
 		},
@@ -368,7 +368,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/chre_atoms_log.so"],
 			shared_libs: [ ],
 		},
@@ -385,7 +385,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/chremetrics-cpp.so"],
 			shared_libs: [ ],
 		},
@@ -402,7 +402,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -419,7 +419,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -436,7 +436,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -453,7 +453,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -470,7 +470,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -487,7 +487,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -504,7 +504,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/com.qualcomm.qti.uceservice@2.3.so"],
 			shared_libs: [ ],
 		},
@@ -521,7 +521,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/eglSubDriverAndroid.so"],
 			shared_libs: [ ],
 		},
@@ -539,7 +539,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libEGL_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -557,7 +557,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -575,7 +575,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libGLESv2_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -593,7 +593,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libVkLayer_ADRENO_qprofiler.so"],
 			shared_libs: [ ],
 		},
@@ -611,7 +611,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libq3dtools_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -629,7 +629,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/egl/libq3dtools_esx.so"],
 			shared_libs: [ ],
 		},
@@ -647,7 +647,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/ese_weaver.nxp.so"],
 			shared_libs: [ ],
 		},
@@ -664,7 +664,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/eskia_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -681,7 +681,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hardware.google.bluetooth.sar@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -698,7 +698,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hardware.google.bluetooth.sar@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -715,7 +715,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hardware.google.bluetooth.sar@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -732,7 +732,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -750,7 +750,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -768,7 +768,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -786,7 +786,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@6.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -804,7 +804,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -822,7 +822,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -840,7 +840,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -858,7 +858,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -876,7 +876,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@6.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -894,7 +894,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@7.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -912,7 +912,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.audio@7.1-impl.so"],
 			shared_libs: [ ],
 		},
@@ -930,7 +930,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -948,7 +948,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -966,7 +966,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so"],
 			shared_libs: [ ],
 		},
@@ -984,7 +984,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1002,7 +1002,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.3-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1020,7 +1020,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.bluetooth.default.so"],
 			shared_libs: [ ],
 		},
@@ -1038,7 +1038,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.bluetooth_qti.monaco.so"],
 			shared_libs: [ ],
 		},
@@ -1056,7 +1056,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.default.so"],
 			shared_libs: [ ],
 		},
@@ -1074,7 +1074,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.primary.monaco.so"],
 			shared_libs: [ ],
 		},
@@ -1092,7 +1092,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.r_submix.default.so"],
 			shared_libs: [ ],
 		},
@@ -1110,7 +1110,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/audio.usb.default.so"],
 			shared_libs: [ ],
 		},
@@ -1128,7 +1128,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/gralloc.default.so"],
 			shared_libs: [ ],
 		},
@@ -1146,7 +1146,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/hardware.google.bluetooth.sar@1.2-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1164,7 +1164,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/libEseUtils.so"],
 			shared_libs: [ ],
 		},
@@ -1182,7 +1182,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/libqtigatekeeper.so"],
 			shared_libs: [ ],
 		},
@@ -1200,7 +1200,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/local_time.default.so"],
 			shared_libs: [ ],
 		},
@@ -1218,7 +1218,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/power.default.so"],
 			shared_libs: [ ],
 		},
@@ -1236,7 +1236,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/sensors.dynamic_sensor_hal.so"],
 			shared_libs: [ ],
 		},
@@ -1254,7 +1254,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/sensors.usf.so"],
 			shared_libs: [ ],
 		},
@@ -1272,7 +1272,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/sound_trigger.primary.monaco.so"],
 			shared_libs: [ ],
 		},
@@ -1290,7 +1290,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1308,7 +1308,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1326,7 +1326,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1344,7 +1344,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1362,7 +1362,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.bttpi-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1380,7 +1380,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.qseecom@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1398,7 +1398,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so"],
 			shared_libs: [ ],
 		},
@@ -1416,7 +1416,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vibrator.default.so"],
 			shared_libs: [ ],
 		},
@@ -1434,7 +1434,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/hw/vulkan.adreno.so"],
 			shared_libs: [ ],
 		},
@@ -1452,7 +1452,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib-imscommon.so"],
 			shared_libs: [ ],
 		},
@@ -1469,7 +1469,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib-imsdpl.so"],
 			shared_libs: [ ],
 		},
@@ -1486,7 +1486,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib-imsqimf.so"],
 			shared_libs: [ ],
 		},
@@ -1503,7 +1503,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib-imsvtcore.so"],
 			shared_libs: [ ],
 		},
@@ -1520,7 +1520,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib-imsxml.so"],
 			shared_libs: [ ],
 		},
@@ -1537,7 +1537,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib-rtpcommon.so"],
 			shared_libs: [ ],
 		},
@@ -1554,7 +1554,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib-rtpcore.so"],
 			shared_libs: [ ],
 		},
@@ -1571,7 +1571,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib-rtpsl.so"],
 			shared_libs: [ ],
 		},
@@ -1588,7 +1588,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libAlacSwDec.so"],
 			shared_libs: [ ],
 		},
@@ -1605,7 +1605,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libApeSwDec.so"],
 			shared_libs: [ ],
 		},
@@ -1622,7 +1622,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libCB.so"],
 			shared_libs: [ ],
 		},
@@ -1639,7 +1639,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libCneAppJni.so"],
 			shared_libs: [ ],
 		},
@@ -1656,7 +1656,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libEGL_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -1673,7 +1673,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libFlacSwDec.so"],
 			shared_libs: [ ],
 		},
@@ -1690,7 +1690,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libGLESv2_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -1707,7 +1707,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libGPQTEEC_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -1724,7 +1724,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libGPQeSE.so"],
 			shared_libs: [ ],
 		},
@@ -1741,7 +1741,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libGPTEE_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -1758,7 +1758,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libGPreqcancel.so"],
 			shared_libs: [ ],
 		},
@@ -1775,7 +1775,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libGPreqcancel_svc.so"],
 			shared_libs: [ ],
 		},
@@ -1792,7 +1792,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libOmxCore.so"],
 			shared_libs: [ ],
 		},
@@ -1809,7 +1809,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libOpenCL.so"],
 			shared_libs: [ ],
 		},
@@ -1826,7 +1826,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libQSEEComAPI.so"],
 			shared_libs: [ ],
 		},
@@ -1843,7 +1843,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libQTEEConnector_listener.so"],
 			shared_libs: [ ],
 		},
@@ -1860,7 +1860,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libQTEEConnector_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -1877,7 +1877,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libSlatedaemon.so"],
 			shared_libs: [ ],
 		},
@@ -1894,7 +1894,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libTscCompressor.so"],
 			shared_libs: [ ],
 		},
@@ -1911,7 +1911,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libWlanServiceJni.so"],
 			shared_libs: [ ],
 		},
@@ -1928,7 +1928,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib_bt_aptx.so"],
 			shared_libs: [ ],
 		},
@@ -1945,7 +1945,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib_bt_ble.so"],
 			shared_libs: [ ],
 		},
@@ -1962,7 +1962,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/lib_bt_bundle.so"],
 			shared_libs: [ ],
 		},
@@ -1979,7 +1979,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaconfig_storage_read_api_cc.so"],
 			shared_libs: [ ],
 		},
@@ -1996,7 +1996,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libadm.so"],
 			shared_libs: [ ],
 		},
@@ -2013,7 +2013,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libadreno_app_profiles.so"],
 			shared_libs: [ ],
 		},
@@ -2030,7 +2030,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libadreno_utils.so"],
 			shared_libs: [ ],
 		},
@@ -2047,7 +2047,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libadsp_default_listener.so"],
 			shared_libs: [ ],
 		},
@@ -2064,7 +2064,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libadsprpc.so"],
 			shared_libs: [ ],
 		},
@@ -2081,7 +2081,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libagm.so"],
 			shared_libs: [ ],
 		},
@@ -2098,7 +2098,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libagm_compress_plugin.so"],
 			shared_libs: [ ],
 		},
@@ -2115,7 +2115,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libagm_mixer_plugin.so"],
 			shared_libs: [ ],
 		},
@@ -2132,7 +2132,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libagm_pcm_plugin.so"],
 			shared_libs: [ ],
 		},
@@ -2149,7 +2149,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libagmclient.so"],
 			shared_libs: [ ],
 		},
@@ -2166,7 +2166,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libagmmixer.so"],
 			shared_libs: [ ],
 		},
@@ -2183,7 +2183,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libalsautils.so"],
 			shared_libs: [ ],
 		},
@@ -2200,7 +2200,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libandroid_runtime_lazy.so"],
 			shared_libs: [ ],
 		},
@@ -2217,7 +2217,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libar-acdb.so"],
 			shared_libs: [ ],
 		},
@@ -2234,7 +2234,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libar-gpr.so"],
 			shared_libs: [ ],
 		},
@@ -2251,7 +2251,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libar-gsl.so"],
 			shared_libs: [ ],
 		},
@@ -2268,7 +2268,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libar-pal.so"],
 			shared_libs: [ ],
 		},
@@ -2285,7 +2285,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libats.so"],
 			shared_libs: [ ],
 		},
@@ -2302,7 +2302,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudio_log_utils.so"],
 			shared_libs: [ ],
 		},
@@ -2319,7 +2319,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libaudiochargerlistener.so"],
 			shared_libs: [ ],
 		},
@@ -2336,7 +2336,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbase64.so"],
 			shared_libs: [ ],
 		},
@@ -2353,7 +2353,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbatching.so"],
 			shared_libs: [ ],
 		},
@@ -2370,7 +2370,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbatterylistener.so"],
 			shared_libs: [ ],
 		},
@@ -2387,7 +2387,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbinderdebug.so"],
 			shared_libs: [ ],
 		},
@@ -2404,7 +2404,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session.so"],
 			shared_libs: [ ],
 		},
@@ -2421,7 +2421,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_aidl.so"],
 			shared_libs: [ ],
 		},
@@ -2438,7 +2438,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_aidl_qti.so"],
 			shared_libs: [ ],
 		},
@@ -2455,7 +2455,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_qti.so"],
 			shared_libs: [ ],
 		},
@@ -2472,7 +2472,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbluetooth_audio_session_qti_2_1.so"],
 			shared_libs: [ ],
 		},
@@ -2489,7 +2489,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libboot_control_qti.so"],
 			shared_libs: [ ],
 		},
@@ -2506,7 +2506,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbt-hidlclient.so"],
 			shared_libs: [ ],
 		},
@@ -2523,7 +2523,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libbtnv.so"],
 			shared_libs: [ ],
 		},
@@ -2540,7 +2540,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcacertclient.so"],
 			shared_libs: [ ],
 		},
@@ -2557,7 +2557,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcamera2ndk_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -2574,7 +2574,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcapiv2svacnnvendor.so"],
 			shared_libs: [ ],
 		},
@@ -2591,7 +2591,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcapiv2svarnnvendor.so"],
 			shared_libs: [ ],
 		},
@@ -2608,7 +2608,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcdfw.so"],
 			shared_libs: [ ],
 		},
@@ -2625,7 +2625,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcdfw_remote_api.so"],
 			shared_libs: [ ],
 		},
@@ -2642,7 +2642,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcdsp_default_listener.so"],
 			shared_libs: [ ],
 		},
@@ -2659,7 +2659,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcdsprpc.so"],
 			shared_libs: [ ],
 		},
@@ -2676,7 +2676,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcne.so"],
 			shared_libs: [ ],
 		},
@@ -2693,7 +2693,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcneapiclient.so"],
 			shared_libs: [ ],
 		},
@@ -2710,7 +2710,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcneoplookup.so"],
 			shared_libs: [ ],
 		},
@@ -2727,7 +2727,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcneqmiutils.so"],
 			shared_libs: [ ],
 		},
@@ -2744,7 +2744,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_hal_common.so"],
 			shared_libs: [ ],
 		},
@@ -2761,7 +2761,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcodec2_hidl_plugin.so"],
 			shared_libs: [ ],
 		},
@@ -2778,7 +2778,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libconfigdb.so"],
 			shared_libs: [ ],
 		},
@@ -2795,7 +2795,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcpion.so"],
 			shared_libs: [ ],
 		},
@@ -2812,7 +2812,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcppbor.so"],
 			shared_libs: [ ],
 		},
@@ -2829,7 +2829,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libcppcose_rkp.so"],
 			shared_libs: [ ],
 		},
@@ -2846,7 +2846,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdataitems.so"],
 			shared_libs: [ ],
 		},
@@ -2863,7 +2863,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdiag.so"],
 			shared_libs: [ ],
 		},
@@ -2880,7 +2880,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdiagjni.so"],
 			shared_libs: [ ],
 		},
@@ -2897,7 +2897,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdisplayconfig.qti.so"],
 			shared_libs: [ ],
 		},
@@ -2914,7 +2914,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdisplaydebug.so"],
 			shared_libs: [ ],
 		},
@@ -2931,7 +2931,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdisplayqos.so"],
 			shared_libs: [ ],
 		},
@@ -2948,7 +2948,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdisplayskuutils.so"],
 			shared_libs: [ ],
 		},
@@ -2965,7 +2965,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdisppower-pixel.so"],
 			shared_libs: [ ],
 		},
@@ -2982,7 +2982,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdrmfs.so"],
 			shared_libs: [ ],
 		},
@@ -2999,7 +2999,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdrmtime.so"],
 			shared_libs: [ ],
 		},
@@ -3016,7 +3016,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdrmutils.so"],
 			shared_libs: [ ],
 		},
@@ -3033,7 +3033,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdsd2pcm.so"],
 			shared_libs: [ ],
 		},
@@ -3050,7 +3050,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdsi_netctrl.so"],
 			shared_libs: [ ],
 		},
@@ -3067,7 +3067,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libdsutils.so"],
 			shared_libs: [ ],
 		},
@@ -3084,7 +3084,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libeai_fixed_32.so"],
 			shared_libs: [ ],
 		},
@@ -3101,7 +3101,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libesesbprovision.so"],
 			shared_libs: [ ],
 		},
@@ -3118,7 +3118,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libfastcvopt.so"],
 			shared_libs: [ ],
 		},
@@ -3135,7 +3135,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libflatbuffers-cpp.so"],
 			shared_libs: [ ],
 		},
@@ -3152,7 +3152,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgdtap.so"],
 			shared_libs: [ ],
 		},
@@ -3169,7 +3169,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgeofencing.so"],
 			shared_libs: [ ],
 		},
@@ -3186,7 +3186,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgnss.so"],
 			shared_libs: [ ],
 		},
@@ -3203,7 +3203,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgnsspps.so"],
 			shared_libs: [ ],
 		},
@@ -3220,7 +3220,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgnsswear_power.so"],
 			shared_libs: [ ],
 		},
@@ -3237,7 +3237,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgps.utils.so"],
 			shared_libs: [ ],
 		},
@@ -3254,7 +3254,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgpt.so"],
 			shared_libs: [ ],
 		},
@@ -3271,7 +3271,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgpu_tonemapper.so"],
 			shared_libs: [ ],
 		},
@@ -3288,7 +3288,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgpudataproducer.so"],
 			shared_libs: [ ],
 		},
@@ -3305,7 +3305,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgralloc.qti.so"],
 			shared_libs: [ ],
 		},
@@ -3322,7 +3322,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgralloccore.so"],
 			shared_libs: [ ],
 		},
@@ -3339,7 +3339,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgrallocutils.so"],
 			shared_libs: [ ],
 		},
@@ -3356,7 +3356,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libgsl.so"],
 			shared_libs: [ ],
 		},
@@ -3373,7 +3373,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhdr_tm.so"],
 			shared_libs: [ ],
 		},
@@ -3390,7 +3390,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhfp_pal.so"],
 			shared_libs: [ ],
 		},
@@ -3407,7 +3407,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhidparser.so"],
 			shared_libs: [ ],
 		},
@@ -3424,7 +3424,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libhistogram.so"],
 			shared_libs: [ ],
 		},
@@ -3441,7 +3441,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libidl.so"],
 			shared_libs: [ ],
 		},
@@ -3458,7 +3458,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libipanat.so"],
 			shared_libs: [ ],
 		},
@@ -3475,7 +3475,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libizat_client_api.so"],
 			shared_libs: [ ],
 		},
@@ -3492,7 +3492,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libizat_core.so"],
 			shared_libs: [ ],
 		},
@@ -3509,7 +3509,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libjc_keymint.nxp.so"],
 			shared_libs: [ ],
 		},
@@ -3526,7 +3526,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libjc_keymint_transport.nxp.so"],
 			shared_libs: [ ],
 		},
@@ -3543,7 +3543,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libjnihelper.so"],
 			shared_libs: [ ],
 		},
@@ -3560,7 +3560,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libjson.so"],
 			shared_libs: [ ],
 		},
@@ -3577,7 +3577,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkcl.so"],
 			shared_libs: [ ],
 		},
@@ -3594,7 +3594,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkernelmanager.so"],
 			shared_libs: [ ],
 		},
@@ -3611,7 +3611,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeymasterdeviceutils.so"],
 			shared_libs: [ ],
 		},
@@ -3628,7 +3628,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeymasterprovision.so"],
 			shared_libs: [ ],
 		},
@@ -3645,7 +3645,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeymasterutils.so"],
 			shared_libs: [ ],
 		},
@@ -3662,7 +3662,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeymint_support.so"],
 			shared_libs: [ ],
 		},
@@ -3679,7 +3679,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeystore-engine-wifi-hidl.so"],
 			shared_libs: [ ],
 		},
@@ -3696,7 +3696,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libkeystore-wifi-hidl.so"],
 			shared_libs: [ ],
 		},
@@ -3713,7 +3713,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblbs_core.so"],
 			shared_libs: [ ],
 		},
@@ -3730,7 +3730,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblistensoundmodel2vendor.so"],
 			shared_libs: [ ],
 		},
@@ -3747,7 +3747,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libllvm-glnext.so"],
 			shared_libs: [ ],
 		},
@@ -3764,7 +3764,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libllvm-qcom.so"],
 			shared_libs: [ ],
 		},
@@ -3781,7 +3781,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libllvm-qgl.so"],
 			shared_libs: [ ],
 		},
@@ -3798,7 +3798,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_api_v02.so"],
 			shared_libs: [ ],
 		},
@@ -3815,7 +3815,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_api_wds.so"],
 			shared_libs: [ ],
 		},
@@ -3832,7 +3832,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_base_util.so"],
 			shared_libs: [ ],
 		},
@@ -3849,7 +3849,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_core.so"],
 			shared_libs: [ ],
 		},
@@ -3866,7 +3866,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_glink.so"],
 			shared_libs: [ ],
 		},
@@ -3883,7 +3883,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_mq_client.so"],
 			shared_libs: [ ],
 		},
@@ -3900,7 +3900,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_qwes_iface.so"],
 			shared_libs: [ ],
 		},
@@ -3917,7 +3917,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_ril_client.so"],
 			shared_libs: [ ],
 		},
@@ -3934,7 +3934,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_socket.so"],
 			shared_libs: [ ],
 		},
@@ -3951,7 +3951,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libloc_util.so"],
 			shared_libs: [ ],
 		},
@@ -3968,7 +3968,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblocation_api.so"],
 			shared_libs: [ ],
 		},
@@ -3985,7 +3985,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblocationservice.so"],
 			shared_libs: [ ],
 		},
@@ -4002,7 +4002,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblocationservice_glue.so"],
 			shared_libs: [ ],
 		},
@@ -4019,7 +4019,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblowi_client.so"],
 			shared_libs: [ ],
 		},
@@ -4036,7 +4036,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblowi_common.so"],
 			shared_libs: [ ],
 		},
@@ -4053,7 +4053,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblowi_wifihal.so"],
 			shared_libs: [ ],
 		},
@@ -4070,7 +4070,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblqe.so"],
 			shared_libs: [ ],
 		},
@@ -4087,7 +4087,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblx-ar_util.so"],
 			shared_libs: [ ],
 		},
@@ -4104,7 +4104,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liblx-osal.so"],
 			shared_libs: [ ],
 		},
@@ -4121,7 +4121,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmapdata_api.so"],
 			shared_libs: [ ],
 		},
@@ -4138,7 +4138,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmasc.so"],
 			shared_libs: [ ],
 		},
@@ -4155,7 +4155,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmcs.so"],
 			shared_libs: [ ],
 		},
@@ -4172,7 +4172,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmdmdetect.so"],
 			shared_libs: [ ],
 		},
@@ -4189,7 +4189,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmdsprpc.so"],
 			shared_libs: [ ],
 		},
@@ -4206,7 +4206,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmediautils_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -4223,7 +4223,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libminkdescriptor.so"],
 			shared_libs: [ ],
 		},
@@ -4240,7 +4240,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libminksocket_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -4257,7 +4257,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libmm-omxcore.so"],
 			shared_libs: [ ],
 		},
@@ -4274,7 +4274,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnative-api.so"],
 			shared_libs: [ ],
 		},
@@ -4291,7 +4291,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnetfilter_conntrack.so"],
 			shared_libs: [ ],
 		},
@@ -4308,7 +4308,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnfnetlink.so"],
 			shared_libs: [ ],
 		},
@@ -4325,7 +4325,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm.so"],
 			shared_libs: [ ],
 		},
@@ -4342,7 +4342,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm_dsi.so"],
 			shared_libs: [ ],
 		},
@@ -4359,7 +4359,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm_interface.so"],
 			shared_libs: [ ],
 		},
@@ -4376,7 +4376,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm_internal.so"],
 			shared_libs: [ ],
 		},
@@ -4393,7 +4393,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm_modemproxy.so"],
 			shared_libs: [ ],
 		},
@@ -4410,7 +4410,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm_netlink.so"],
 			shared_libs: [ ],
 		},
@@ -4427,7 +4427,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm_recovery.so"],
 			shared_libs: [ ],
 		},
@@ -4444,7 +4444,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm_utils.so"],
 			shared_libs: [ ],
 		},
@@ -4461,7 +4461,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libnicm_vh.so"],
 			shared_libs: [ ],
 		},
@@ -4478,7 +4478,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/liboffloadhal.so"],
 			shared_libs: [ ],
 		},
@@ -4495,7 +4495,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libops.so"],
 			shared_libs: [ ],
 		},
@@ -4512,7 +4512,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpal_net_if.so"],
 			shared_libs: [ ],
 		},
@@ -4529,7 +4529,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpdmapper.so"],
 			shared_libs: [ ],
 		},
@@ -4546,7 +4546,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpdnotifier.so"],
 			shared_libs: [ ],
 		},
@@ -4563,7 +4563,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libperfmgr.so"],
 			shared_libs: [ ],
 		},
@@ -4580,7 +4580,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libperipheral_client.so"],
 			shared_libs: [ ],
 		},
@@ -4597,7 +4597,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpixelatoms_defs.so"],
 			shared_libs: [ ],
 		},
@@ -4614,7 +4614,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpixelhealth.so"],
 			shared_libs: [ ],
 		},
@@ -4631,7 +4631,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpixelstats.so"],
 			shared_libs: [ ],
 		},
@@ -4648,7 +4648,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libplatformconfig.so"],
 			shared_libs: [ ],
 		},
@@ -4665,7 +4665,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libpolygon.so"],
 			shared_libs: [ ],
 		},
@@ -4682,7 +4682,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libq3dtools_adreno.so"],
 			shared_libs: [ ],
 		},
@@ -4699,7 +4699,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqc2colorconvertfilter.so"],
 			shared_libs: [ ],
 		},
@@ -4716,7 +4716,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqc2filter.so"],
 			shared_libs: [ ],
 		},
@@ -4733,7 +4733,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcbor.so"],
 			shared_libs: [ ],
 		},
@@ -4750,7 +4750,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcci_legacy.so"],
 			shared_libs: [ ],
 		},
@@ -4767,7 +4767,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcmaputils.so"],
 			shared_libs: [ ],
 		},
@@ -4784,7 +4784,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_base.so"],
 			shared_libs: [ ],
 		},
@@ -4801,7 +4801,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_basecodec.so"],
 			shared_libs: [ ],
 		},
@@ -4818,7 +4818,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_core.so"],
 			shared_libs: [ ],
 		},
@@ -4835,7 +4835,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_filterbase.so"],
 			shared_libs: [ ],
 		},
@@ -4852,7 +4852,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_hooks.so"],
 			shared_libs: [ ],
 		},
@@ -4869,7 +4869,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_mockfilter.so"],
 			shared_libs: [ ],
 		},
@@ -4886,7 +4886,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_mockqc2filter.so"],
 			shared_libs: [ ],
 		},
@@ -4903,7 +4903,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_platform.so"],
 			shared_libs: [ ],
 		},
@@ -4920,7 +4920,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_utils.so"],
 			shared_libs: [ ],
 		},
@@ -4937,7 +4937,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcodec2_v4l2codec.so"],
 			shared_libs: [ ],
 		},
@@ -4954,7 +4954,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcrildataaidl.so"],
 			shared_libs: [ ],
 		},
@@ -4971,7 +4971,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcrildatactl.so"],
 			shared_libs: [ ],
 		},
@@ -4988,7 +4988,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqcrildataqos.so"],
 			shared_libs: [ ],
 		},
@@ -5005,7 +5005,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqdMetaData.so"],
 			shared_libs: [ ],
 		},
@@ -5022,7 +5022,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqdi.so"],
 			shared_libs: [ ],
 		},
@@ -5039,7 +5039,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqdp.so"],
 			shared_libs: [ ],
 		},
@@ -5056,7 +5056,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqdpr.so"],
 			shared_libs: [ ],
 		},
@@ -5073,7 +5073,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqdutils.so"],
 			shared_libs: [ ],
 		},
@@ -5090,7 +5090,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqisl.so"],
 			shared_libs: [ ],
 		},
@@ -5107,7 +5107,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi.so"],
 			shared_libs: [ ],
 		},
@@ -5124,7 +5124,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi_cci.so"],
 			shared_libs: [ ],
 		},
@@ -5141,7 +5141,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi_client_helper.so"],
 			shared_libs: [ ],
 		},
@@ -5158,7 +5158,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi_client_qmux.so"],
 			shared_libs: [ ],
 		},
@@ -5175,7 +5175,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi_common_so.so"],
 			shared_libs: [ ],
 		},
@@ -5192,7 +5192,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi_csi.so"],
 			shared_libs: [ ],
 		},
@@ -5209,7 +5209,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi_csvt_srvc.so"],
 			shared_libs: [ ],
 		},
@@ -5226,7 +5226,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi_encdec.so"],
 			shared_libs: [ ],
 		},
@@ -5243,7 +5243,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmi_legacy.so"],
 			shared_libs: [ ],
 		},
@@ -5260,7 +5260,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqmiservices.so"],
 			shared_libs: [ ],
 		},
@@ -5277,7 +5277,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqrtr.so"],
 			shared_libs: [ ],
 		},
@@ -5294,7 +5294,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqseed3.so"],
 			shared_libs: [ ],
 		},
@@ -5311,7 +5311,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqservice.so"],
 			shared_libs: [ ],
 		},
@@ -5328,7 +5328,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqsocket.so"],
 			shared_libs: [ ],
 		},
@@ -5345,7 +5345,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqti-tinyalsa.so"],
 			shared_libs: [ ],
 		},
@@ -5362,7 +5362,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqti-tinycompress.so"],
 			shared_libs: [ ],
 		},
@@ -5379,7 +5379,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqti-utils.so"],
 			shared_libs: [ ],
 		},
@@ -5396,7 +5396,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqti_vndfwk_detect.so"],
 			shared_libs: [ ],
 		},
@@ -5413,7 +5413,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqti_vndfwk_detect_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -5430,7 +5430,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqtikeymaster4.so"],
 			shared_libs: [ ],
 		},
@@ -5447,7 +5447,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libqtikeymint.so"],
 			shared_libs: [ ],
 		},
@@ -5464,7 +5464,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librcc.so"],
 			shared_libs: [ ],
 		},
@@ -5481,7 +5481,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librecovery_updater.so"],
 			shared_libs: [ ],
 		},
@@ -5498,7 +5498,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librmnetctl.so"],
 			shared_libs: [ ],
 		},
@@ -5515,7 +5515,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/librpmb.so"],
 			shared_libs: [ ],
 		},
@@ -5532,7 +5532,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsdedrm.so"],
 			shared_libs: [ ],
 		},
@@ -5549,7 +5549,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsdm-color.so"],
 			shared_libs: [ ],
 		},
@@ -5566,7 +5566,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsdm-colormgr-algo.so"],
 			shared_libs: [ ],
 		},
@@ -5583,7 +5583,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsdm-disp-vndapis.so"],
 			shared_libs: [ ],
 		},
@@ -5600,7 +5600,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsdmcore.so"],
 			shared_libs: [ ],
 		},
@@ -5617,7 +5617,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsdmextension.so"],
 			shared_libs: [ ],
 		},
@@ -5634,7 +5634,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsdmutils.so"],
 			shared_libs: [ ],
 		},
@@ -5651,7 +5651,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsdsprpc.so"],
 			shared_libs: [ ],
 		},
@@ -5668,7 +5668,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libseclog.so"],
 			shared_libs: [ ],
 		},
@@ -5685,7 +5685,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsensorndkbridge.so"],
 			shared_libs: [ ],
 		},
@@ -5702,7 +5702,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsgutils2.so"],
 			shared_libs: [ ],
 		},
@@ -5719,7 +5719,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libshsc.so"],
 			shared_libs: [ ],
 		},
@@ -5736,7 +5736,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsignature-wac.so"],
 			shared_libs: [ ],
 		},
@@ -5753,7 +5753,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsmemlog.so"],
 			shared_libs: [ ],
 		},
@@ -5770,7 +5770,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsn220u_fw.so"],
 			shared_libs: [ ],
 		},
@@ -5787,7 +5787,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsndcardparser.so"],
 			shared_libs: [ ],
 		},
@@ -5804,7 +5804,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsns_registry_skel.so"],
 			shared_libs: [ ],
 		},
@@ -5821,7 +5821,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsoc_helper.so"],
 			shared_libs: [ ],
 		},
@@ -5838,7 +5838,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsoc_helper_jni.so"],
 			shared_libs: [ ],
 		},
@@ -5855,7 +5855,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsoft_attestation_cert.so"],
 			shared_libs: [ ],
 		},
@@ -5872,7 +5872,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libspl.so"],
 			shared_libs: [ ],
 		},
@@ -5889,7 +5889,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libssc_default_listener.so"],
 			shared_libs: [ ],
 		},
@@ -5906,7 +5906,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libssd.so"],
 			shared_libs: [ ],
 		},
@@ -5923,7 +5923,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstagefright_aidl_bufferpool2.so"],
 			shared_libs: [ ],
 		},
@@ -5940,7 +5940,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so"],
 			shared_libs: [ ],
 		},
@@ -5957,7 +5957,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstagefrighthw.so"],
 			shared_libs: [ ],
 		},
@@ -5974,7 +5974,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libstreamparser.so"],
 			shared_libs: [ ],
 		},
@@ -5991,7 +5991,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsubsystem_control.so"],
 			shared_libs: [ ],
 		},
@@ -6008,7 +6008,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsynergy_loc_api.so"],
 			shared_libs: [ ],
 		},
@@ -6025,7 +6025,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsys_info_cache.so"],
 			shared_libs: [ ],
 		},
@@ -6042,7 +6042,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsysmon_cdsp_skel.so"],
 			shared_libs: [ ],
 		},
@@ -6059,7 +6059,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libsystem_health_mon.so"],
 			shared_libs: [ ],
 		},
@@ -6076,7 +6076,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libthermalclient.so"],
 			shared_libs: [ ],
 		},
@@ -6093,7 +6093,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
 			shared_libs: [ ],
 		},
@@ -6110,7 +6110,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtinyxml2_1.so"],
 			shared_libs: [ ],
 		},
@@ -6127,7 +6127,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtrustedapploader.so"],
 			shared_libs: [ ],
 		},
@@ -6144,7 +6144,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtscFont.so"],
 			shared_libs: [ ],
 		},
@@ -6161,7 +6161,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libtzdrmgenprov.so"],
 			shared_libs: [ ],
 		},
@@ -6178,7 +6178,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libuioffload.so"],
 			shared_libs: [ ],
 		},
@@ -6195,7 +6195,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libusf.so"],
 			shared_libs: [ ],
 		},
@@ -6212,7 +6212,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvibratorutils.so"],
 			shared_libs: [ ],
 		},
@@ -6229,7 +6229,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvideotxr.so"],
 			shared_libs: [ ],
 		},
@@ -6246,7 +6246,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvideoutils.so"],
 			shared_libs: [ ],
 		},
@@ -6263,7 +6263,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvmmem.so"],
 			shared_libs: [ ],
 		},
@@ -6280,7 +6280,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvndfwk_detect_jni.qti.so"],
 			shared_libs: [ ],
 		},
@@ -6297,7 +6297,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libvndfwk_detect_jni.qti_vendor.so"],
 			shared_libs: [ ],
 		},
@@ -6314,7 +6314,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwifi-hal-ctrl.so"],
 			shared_libs: [ ],
 		},
@@ -6331,7 +6331,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwifi-hal-qcom.so"],
 			shared_libs: [ ],
 		},
@@ -6348,7 +6348,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
 			shared_libs: [ ],
 		},
@@ -6365,7 +6365,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwifiobserver.so"],
 			shared_libs: [ ],
 		},
@@ -6382,7 +6382,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwms.so"],
 			shared_libs: [ ],
 		},
@@ -6399,7 +6399,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwpa_client.so"],
 			shared_libs: [ ],
 		},
@@ -6416,7 +6416,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libwqe.so"],
 			shared_libs: [ ],
 		},
@@ -6433,7 +6433,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libxml.so"],
 			shared_libs: [ ],
 		},
@@ -6450,7 +6450,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/libxtadapter.so"],
 			shared_libs: [ ],
 		},
@@ -6467,7 +6467,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mediacas/libclearkeycasplugin.so"],
 			shared_libs: [ ],
 		},
@@ -6485,7 +6485,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so"],
 			shared_libs: [ ],
 		},
@@ -6503,7 +6503,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/nfc_nci_nxp_snxxx.so"],
 			shared_libs: [ ],
 		},
@@ -6520,7 +6520,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pixel-power-ext-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -6537,7 +6537,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pixel_stateresidency_provider_aidl_interface-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -6554,7 +6554,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/pixelatoms-cpp.so"],
 			shared_libs: [ ],
 		},
@@ -6571,7 +6571,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/qti.video.utils.videobufferlayout.so"],
 			shared_libs: [ ],
 		},
@@ -6588,7 +6588,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/server_configurable_flags.so"],
 			shared_libs: [ ],
 		},
@@ -6605,7 +6605,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libasphere.so"],
 			shared_libs: [ ],
 		},
@@ -6623,7 +6623,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libdynproc.so"],
 			shared_libs: [ ],
 		},
@@ -6641,7 +6641,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libhapticgenerator.so"],
 			shared_libs: [ ],
 		},
@@ -6659,7 +6659,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcompostprocbundle.so"],
 			shared_libs: [ ],
 		},
@@ -6677,7 +6677,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcomvisualizer.so"],
 			shared_libs: [ ],
 		},
@@ -6695,7 +6695,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so"],
 			shared_libs: [ ],
 		},
@@ -6713,7 +6713,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libshoebox.so"],
 			shared_libs: [ ],
 		},
@@ -6731,7 +6731,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/soundfx/libvolumelistener.so"],
 			shared_libs: [ ],
 		},
@@ -6749,7 +6749,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor-pixelatoms-cpp.so"],
 			shared_libs: [ ],
 		},
@@ -6766,7 +6766,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6783,7 +6783,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -6800,7 +6800,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.display.color@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -6817,7 +6817,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.display.config@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6834,7 +6834,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.display.config@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -6851,7 +6851,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/vendor/lib/vendor.dis"],
 			shared_libs: [ ],
 		},
@@ -6868,7 +6868,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6885,7 +6885,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.qualcomm.qti.bluetooth_audio@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6902,7 +6902,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.qualcomm.qti.dpm.api@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -6919,7 +6919,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -6936,7 +6936,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -6953,7 +6953,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -6970,7 +6970,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.3.so"],
 			shared_libs: [ ],
 		},
@@ -6987,7 +6987,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.api@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7004,7 +7004,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.api@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7021,7 +7021,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.constants@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7038,7 +7038,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.constants@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -7055,7 +7055,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.constants@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -7072,7 +7072,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.server@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7089,7 +7089,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.server@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -7106,7 +7106,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.server@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -7123,7 +7123,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/com.quicinc.cne.server@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -7140,7 +7140,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/lib-imsvt.so"],
 			shared_libs: [ ],
 		},
@@ -7157,7 +7157,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/lib-imsvtextutils.so"],
 			shared_libs: [ ],
 		},
@@ -7174,7 +7174,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/lib-imsvtutils.so"],
 			shared_libs: [ ],
 		},
@@ -7191,7 +7191,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/libdiag_system.so"],
 			shared_libs: [ ],
 		},
@@ -7208,7 +7208,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.color@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7225,7 +7225,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.color@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7242,7 +7242,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.color@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -7259,7 +7259,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.color@1.3.so"],
 			shared_libs: [ ],
 		},
@@ -7276,7 +7276,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7293,7 +7293,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7310,7 +7310,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -7327,7 +7327,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.3.so"],
 			shared_libs: [ ],
 		},
@@ -7344,7 +7344,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.4.so"],
 			shared_libs: [ ],
 		},
@@ -7361,7 +7361,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.5.so"],
 			shared_libs: [ ],
 		},
@@ -7378,7 +7378,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.6.so"],
 			shared_libs: [ ],
 		},
@@ -7395,7 +7395,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.7.so"],
 			shared_libs: [ ],
 		},
@@ -7412,7 +7412,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.config@1.8.so"],
 			shared_libs: [ ],
 		},
@@ -7429,7 +7429,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.display.postproc@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7446,7 +7446,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ImsRtpService-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -7463,7 +7463,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7480,7 +7480,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -7497,7 +7497,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -7514,7 +7514,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -7531,7 +7531,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@2.3.so"],
 			shared_libs: [ ],
 		},
@@ -7548,7 +7548,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@2.4.so"],
 			shared_libs: [ ],
 		},
@@ -7565,7 +7565,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@2.5.so"],
 			shared_libs: [ ],
 		},
@@ -7582,7 +7582,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@2.6.so"],
 			shared_libs: [ ],
 		},
@@ -7599,7 +7599,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.factory@2.7.so"],
 			shared_libs: [ ],
 		},
@@ -7616,7 +7616,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.mwqem@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7633,7 +7633,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.data.slm@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7650,7 +7650,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.diaghal@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7667,7 +7667,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.alarm@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7684,7 +7684,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.audiohalext@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7701,7 +7701,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.cvp@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7718,7 +7718,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7735,7 +7735,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7752,7 +7752,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7769,7 +7769,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7786,7 +7786,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -7803,7 +7803,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.cne.internal.server@1.3.so"],
 			shared_libs: [ ],
 		},
@@ -7820,7 +7820,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.connection@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7837,7 +7837,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.connection@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7854,7 +7854,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.dynamicdds@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7871,7 +7871,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.dynamicdds@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7888,7 +7888,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.flow@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7905,7 +7905,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.flow@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7922,7 +7922,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.iwlan@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7939,7 +7939,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.iwlan@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -7956,7 +7956,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.iwlandata-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -7973,7 +7973,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.latency@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -7990,7 +7990,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.lce@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8007,7 +8007,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.data.qmi@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8024,7 +8024,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.dpmaidlservice-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -8041,7 +8041,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.dpmservice@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8058,7 +8058,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.dpmservice@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -8075,7 +8075,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.dsp@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8092,7 +8092,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.fingerprint@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8109,7 +8109,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.mwqemadapter@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8126,7 +8126,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.qdutils_disp@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8143,7 +8143,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.qseecom-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -8160,7 +8160,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.qseecom@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8177,7 +8177,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector-V1-ndk.so"],
 			shared_libs: [ ],
 		},
@@ -8194,7 +8194,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8211,7 +8211,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.am@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8228,7 +8228,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8245,7 +8245,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -8262,7 +8262,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -8279,7 +8279,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.3.so"],
 			shared_libs: [ ],
 		},
@@ -8296,7 +8296,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.4.so"],
 			shared_libs: [ ],
 		},
@@ -8313,7 +8313,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.5.so"],
 			shared_libs: [ ],
 		},
@@ -8330,7 +8330,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.6.so"],
 			shared_libs: [ ],
 		},
@@ -8347,7 +8347,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.7.so"],
 			shared_libs: [ ],
 		},
@@ -8364,7 +8364,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.8.so"],
 			shared_libs: [ ],
 		},
@@ -8381,7 +8381,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.9.so"],
 			shared_libs: [ ],
 		},
@@ -8398,7 +8398,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8415,7 +8415,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.lpa@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8432,7 +8432,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8449,7 +8449,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8466,7 +8466,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -8483,7 +8483,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -8500,7 +8500,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -8517,7 +8517,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.3.so"],
 			shared_libs: [ ],
 		},
@@ -8534,7 +8534,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.4.so"],
 			shared_libs: [ ],
 		},
@@ -8551,7 +8551,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.uim@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8568,7 +8568,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.uim@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -8585,7 +8585,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.uim@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -8602,7 +8602,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8619,7 +8619,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -8636,7 +8636,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -8653,7 +8653,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8670,7 +8670,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8687,7 +8687,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.scve.panorama@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8704,7 +8704,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.seccam@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8721,7 +8721,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.slmadapter@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8738,7 +8738,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8755,7 +8755,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.hardware.wigig.supptunnel@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8772,7 +8772,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.callcapability@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8789,7 +8789,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.callinfo@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8806,7 +8806,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.configservice@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8823,7 +8823,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.configservice@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -8840,7 +8840,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.connection@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8857,7 +8857,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.factory@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8874,7 +8874,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.factory@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -8891,7 +8891,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.factory@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -8908,7 +8908,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.factory@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -8925,7 +8925,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.factory@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -8942,7 +8942,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -8959,7 +8959,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -8976,7 +8976,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -8993,7 +8993,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcsconfig@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -9010,7 +9010,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -9027,7 +9027,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -9044,7 +9044,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcssip@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -9061,7 +9061,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.0.so"],
 			shared_libs: [ ],
 		},
@@ -9078,7 +9078,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.1.so"],
 			shared_libs: [ ],
 		},
@@ -9095,7 +9095,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.ims.rcsuce@1.2.so"],
 			shared_libs: [ ],
 		},
@@ -9112,7 +9112,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.0.so"],
 			shared_libs: [ ],
 		},
@@ -9129,7 +9129,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.imsrtpservice@3.1.so"],
 			shared_libs: [ ],
 		},
@@ -9146,7 +9146,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.latency@2.0.so"],
 			shared_libs: [ ],
 		},
@@ -9163,7 +9163,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.latency@2.1.so"],
 			shared_libs: [ ],
 		},
@@ -9180,7 +9180,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.latency@2.2.so"],
 			shared_libs: [ ],
 		},
@@ -9197,7 +9197,7 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		: {
+		android_arm32: {
 			srcs: ["proprietary/system_ext/lib/vendor.qti.voiceprint@1.0.so"],
 			shared_libs: [ ],
 		},
